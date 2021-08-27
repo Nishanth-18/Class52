@@ -1,0 +1,81 @@
+h1 
+   {
+    color :blue;
+    margin: 30px;   
+    padding: 10px;          
+   }
+   *
+   {
+    border : solid  
+   }
+
+.header
+{
+    background-color : red;
+    display : flex;
+    justify-content :space-between;
+}
+
+.grid
+{
+    display :flex;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+}
+
+.footer
+{
+    display : flex;
+    justify-content: flex-end;
+}
+
+body
+{
+    background-color: #dee4b8;
+}
+
+.menu
+{
+    margin : 30px
+}
+
+.menu a
+{
+ margin: 30px;
+  padding-left: 10px;
+padding-right: 10px;
+}
+
+a:link
+{
+ color : black;
+}
+
+a:visited
+{
+ color : blueviolet;
+}
+
+.item
+{
+ position : relative;
+}
+
+.item p
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    opacity : 0;
+}
+
+.item:hover p
+{
+    opacity : 1;    
+}
+
+.item:hover img
+{
+    opacity : 0.33;
+}
